@@ -36,17 +36,6 @@ workflows:
       inputs: []
       outputs: []
     dependencies: {}
-  workflows/Rueben_Schneider:
-    name: Rueben_Schneider
-    description: ''
-    author: gavin.larkin@gmail.com
-    mode: batch
-    language: scala
-    createdAt: '2022-02-01 10:09:38'
-    datasets:
-      inputs: []
-      outputs: []
-    dependencies: {}
   workflows/Gilbert_Grant:
     name: Gilbert_Grant
     description: ''
@@ -87,6 +76,28 @@ workflows:
     mode: batch
     language: scala
     createdAt: '2022-02-03 09:45:25'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
+  workflows/Rueben_Schneider:
+    name: Rueben_Schneider
+    description: ''
+    author: gavin.larkin@gmail.com
+    mode: batch
+    language: scala
+    createdAt: '2022-02-01 10:09:38'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
+  workflows/W2:
+    name: W2
+    description: Really solid info
+    author: cris.rutherford@hotmail.com
+    mode: batch
+    language: scala
+    createdAt: '2022-03-25 06:55:12'
     datasets:
       inputs: []
       outputs: []
